@@ -13,5 +13,7 @@ struct BioBattleApp: App {
         WindowGroup {
             ContentView()
         }
+		.windowStyle(.hiddenTitleBar)
+		.windowResizability(.contentSize)
     }
 }
